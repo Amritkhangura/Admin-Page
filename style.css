@@ -13,8 +13,8 @@ body {
 
 .flex-header {
   background-color: blue;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .flex-main {
@@ -45,6 +45,6 @@ flex: 1;
 
 .flex-footer{
   background-color: green;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
