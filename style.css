@@ -1,5 +1,6 @@
 * {
   margin: 2px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
@@ -58,18 +59,29 @@ flex: 1;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid: span 3;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
 .search-bar-span {
-  grid-row-start: 2;
-  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  border: none;
+  border-radius: 24px;
+  padding: 10px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
 }
 .para-grid-span {
   grid-row-start: 2;
   grid-column-start: 2;
+  color: black;
+  font-weight: bold;
 }
 #btns-span {
   grid-row-start: 2;
+  grid-column-start: 3;
 
 }
 
@@ -100,3 +112,12 @@ flex: 1;
   margin-right: 10px;
   width: 70px
 }
+/* .logo {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-weight: bold;
+  color: white;
+  font-size: 24x;
+  background: blue;
+  width: 200px;
+} */
