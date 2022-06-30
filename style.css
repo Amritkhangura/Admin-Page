@@ -12,7 +12,7 @@ body {
 }
 
 .flex-header {
-  background-color: blue;
+  background-color: lightgray;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -47,4 +47,56 @@ flex: 1;
   background-color: green;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.topnav {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-col-span-3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid: span 3;
+}
+.search-bar-span {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+.para-grid-span {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+#btns-span {
+  grid-row-start: 2;
+
+}
+
+.new {
+  color: white;
+  background-color: blue;
+  padding: 10px 12px;
+  border-radius: 24px;
+  border: 2px solid blue;
+  margin-right: 10px;
+  width: 70px
+}
+.upload {
+  color: white;
+  background-color: blue;
+  padding: 10px 12px;
+  border-radius: 24px;
+  border: 2px solid blue;
+  margin-right: 10px;
+  width: 70px
+}
+.share{
+  color: white;
+  background-color: blue;
+  padding: 10px 12px;
+  border-radius: 24px;
+  border: 2px solid blue;
+  margin-right: 10px;
+  width: 70px
 }
