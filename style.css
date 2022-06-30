@@ -27,7 +27,7 @@ flex: 1;
 
 .flex-nav{
   background-color: red;
-  padding-top: 3rem;
+  padding-top: 1rem;
   flex: 1 1 5rem
 }
 
@@ -46,8 +46,7 @@ flex: 1;
 
 .flex-footer{
   background-color: green;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  font-size: small;
 }
 
 .topnav {
