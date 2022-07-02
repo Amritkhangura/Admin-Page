@@ -26,7 +26,7 @@ flex: 1;
 }
 
 .flex-nav{
-  background-color: red;
+  background-color: blue;
   padding-top: 1rem;
   flex: 1 1 5rem
 }
@@ -120,3 +120,10 @@ input[type=text]:focus {
   background: blue;
   width: 200px;
 } */
+
+.grid-nav {
+  font-weight: bold;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(1fr, 10);
+}
