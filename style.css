@@ -221,3 +221,34 @@ font-size: 12px;
   width: 90%;
   background-color: #fdb44b;
 }
+.aside-grid{
+  display: grid;
+  gap: 35px;
+}
+.box-4 {
+  height: 100px;
+  width: 90%;
+  background-color: #fdb44b;
+  font-size: 12px;
+
+
+}
+.box-5 {
+  height: 100px;
+  width: 90%;
+  background-color:#fdb44b;
+  font-size: 12px;
+
+}
+.box-6 {
+  height: 100px;
+  width: 90%;
+  background-color: #fdb44b;
+  font-size: 12px;
+
+}
+.trending-box{
+  display: grid;
+  gap: 2px;
+
+}
