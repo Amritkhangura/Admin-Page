@@ -51,8 +51,9 @@ flex: 1;
 }
 
 .flex-footer{
-  background-color: green;
+  background-color:#fdb44b;
   font-size: small;
+  color: black;
 }
 
 .topnav {
